@@ -1,0 +1,80 @@
+
+nav{background-color:gray;}
+h1{color:black;
+    text-align: right
+    ;
+
+}
+.titre2{float: left;}
+
+
+.navbar-brand{color:black}
+.navbar-toggler-icon{border:0px solid ;
+color:red;}
+.navbar-toggler{color:black;}
+h3{text-align: center;
+
+padding-top:0px;
+padding-bottom:0px; 
+background-color: white;
+    }
+    
+   div>h3:nth-child(1)
+   {border-width: 2px 0px 2px 0px;
+    border-color:black;
+    border-style:solid;
+    padding-top: 10px;
+padding-bottom: 10px;} 
+    div>h3:nth-child(2)
+   {border-width: 0px 0px 2px 0px;
+    border-color:black;
+    border-style:solid;
+padding-bottom: 10px;}  
+div>h3:nth-child(3)
+{border-width: 0px 0px 0px 0px;
+ border-color:black;
+ border-style:solid;
+padding-bottom: 10px;}  
+.jh{text-align: center;
+    border-width: 0px 2px 2px 2px;
+    border-color:black;
+    border-style:solid;
+    color:black
+    
+   }
+   #c{border: 10px solid gray;
+    text-align: right;
+    background-color: gray;
+bottom: 0px;
+
+height:10px
+;
+left: 0px;
+right:0vmax;
+position: absolute;}
+   .container-fluid{background-color: gray;
+    
+        width: 100%;
+     
+
+    top:0px}
+    a,a:hover{color:black;
+    text-decoration:none;}
+   #navbarToggleExternalContent{
+       background-color: white;
+       padding-bottom: 0px;
+    border-width: 2px 2px 2px 2px;
+    border-color: black ;
+    border-style: solid;}
+    
+    @media (min-width:776px)
+{ div>h3{display:none;
+    
+max-width: 100%;}
+.navbar-toggler {display: none;}
+h3{display:none}
+.jh{display:none}}
+#navbarToggleExternalContent{ border-width: 0px 0px 0px 0px;}
+
+
+
